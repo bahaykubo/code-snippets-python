@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pytest = "==5.3.5"
+arrow = "==0.15.6"
+pdfquery = "==0.4.3"
+pypdf2 = "==1.26.0"
+pytz = "==2021.3"
+pandas = "~=1.3.3"
+requests = "~=2.26"
+pycodestyle = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.9"
